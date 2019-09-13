@@ -2,7 +2,6 @@ import React from "react";
 
 const Dashboard = props => {
     
-    console.log(props);
     return(
         <div>
             <button className="button strike" onClick={()=>props.addOneStrike()}>Strike</button>

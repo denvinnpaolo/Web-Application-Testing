@@ -15,7 +15,7 @@ const Display = () => {
     const addOneBall =() =>{
         setBall(ball+1)
     };
-    
+
     const addOneStrike =() =>{
         setStrike(strike+1)
     };
@@ -33,8 +33,8 @@ const Display = () => {
 
     return(
         <div>
-            <h1> Score: {score}</h1>
-            <h1> Strike: {strike}</h1>
+            <h1>Score: {score}</h1>
+            <h1>Strike: {strike}</h1>
             <h1>Ball: {ball}</h1>
             <Dashboard strike={strike} addOneBall={addOneBall} addOneStrike={addOneStrike} homeRun={homeRun}/>
             <button onClick={()=>{
